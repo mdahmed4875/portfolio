@@ -1,0 +1,39 @@
+.about {
+  background-color: #101f33;
+  color: #cce7ff;
+  padding: 60px 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: #7ecbff;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.about h2::after {
+  content: '';
+  display: block;
+  margin: 8px auto 0;
+  width: 60px;
+  height: 3px;
+  background: #4fa3ff;
+  border-radius: 5px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.1);
+}

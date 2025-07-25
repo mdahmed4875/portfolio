@@ -1,0 +1,50 @@
+.skills {
+  background: linear-gradient(to bottom right, #0d1b2a, #1e3a5f);
+  color: #d6f3ff;
+  padding: 60px 40px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #66ccff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skills li {
+  background: #16324c;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  color: #e0f7ff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.skills li:hover {
+  background: #22577a;
+  transform: translateY(-5px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .skills li {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,72 @@
+.projects {
+  background: linear-gradient(to bottom, #0d1b2a, #1b2d45);
+  color: #e0f7ff;
+  padding: 60px 40px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #66ccff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-card {
+  background: #112b42;
+  color: #d6f3ff;
+  margin: 20px auto;
+  padding: 25px 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  color: #5ec4ff;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+.project-links {
+  margin-top: 10px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 6px 12px;
+  text-decoration: none;
+  background-color: #005f99;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.project-links a:hover {
+  background-color: #003f66;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .project-card {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+
+  .projects h2 {
+    font-size: 2rem;
+  }
+}
