@@ -10,7 +10,7 @@ function Projects() {
         <h3>Portfolio Website</h3>
         <p>A responsive personal portfolio built using React and CSS.</p>
         <div className="project-links">
-          <a href="https://github.com/yourusername/portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://github.com/mdahmed4875/portfolio.git" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </div>
 
