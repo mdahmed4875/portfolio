@@ -13,6 +13,13 @@ function Projects() {
           <a href="https://github.com/mdahmed4875/portfolio.git" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </div>
+      <div className="project-card">
+        <h3>Shopping-Cart-App</h3>
+        <p>A responsive Shooping Cart App clone built using HTML,CSS and javascript.</p>
+        <div className="project-links">
+          <a href="https://github.com/mdahmed4875/shopping-cart-app.git" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
 
       <div className="project-card">
         <h3>Blogify</h3>
@@ -26,6 +33,14 @@ function Projects() {
         <p>A URL shortener built using Node.js, Express, MongoDB, and EJS that allows users to generate and manage short links efficiently</p>
         <div className="project-links">
           <a href="https://github.com/mdahmed4875/url-shortner.git" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+      <div className="project-card">
+        <h3>Postal-pincode</h3>
+        <p>A minimal React app to get details like district, state, and post offices by entering an Indian pincode.
+Uses the Postal API for accurate and real-time information</p>
+        <div className="project-links">
+          <a href="https://github.com/mdahmed4875/postalpincode.git" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </div>
 
@@ -48,6 +63,21 @@ function Projects() {
         <p>A web app built with HTML, CSS, and JavaScript that displays the current time and location, with the ability to search and view the time in other cities worldwide</p>
         <div className="project-links">
           <a href="https://github.com/mdahmed4875/TimeZone.git" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+      <div className="project-card">
+        <h3>Quiz-App</h3>
+        <p>A Quiz app built with HTML, CSS, and JavaScript that displays the current time and location, with the ability to search and view the time in other cities worldwide</p>
+        <div className="project-links">
+          <a href="https://github.com/mdahmed4875/quiz-app.git" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <div className="project-card">
+        <h3>Github-Wrapper</h3>
+        <p>A Github-Wrapper built with React and CSS</p>
+        <div className="project-links">
+          <a href="https://github.com/mdahmed4875/github-wrapper.git" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </div>
       <div className="project-card">
