@@ -7,6 +7,13 @@ function Projects() {
       <h2>Projects</h2>
 
       <div className="project-card">
+        <h3>persolnal finance tracker</h3>
+        <p>A responsive personal finance tracker built using React, firebase and CSS.</p>
+        <div className="project-links">
+          <a href="https://github.com/mdahmed4875/personal-finance-tracker.git" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+        <div className="project-card">
         <h3>Portfolio Website</h3>
         <p>A responsive personal portfolio built using React and CSS.</p>
         <div className="project-links">
